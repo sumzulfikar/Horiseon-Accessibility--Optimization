@@ -4,21 +4,31 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 header {
-    padding: 20px;
+  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 h1 { /* single css for h1*/
     display: inline-block;
     font-size: 48px;
-     color: #d9dcd6;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+header h1.seo {
+    color: #d9dcd6;
 }
 
 nav { /*header div to nav and removed css for ul and li*/
@@ -38,6 +48,16 @@ a {
     text-decoration: none;
     margin-left: 25px;
 }
+
+body {
+    padding-top: 15px;
+    background-color: #d9dcd6;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 p {
     font-size: 16px;
@@ -68,6 +88,7 @@ p {
 }
 
 .benefits {
+    margin-top: 98px;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -109,6 +130,7 @@ p {
 }
 
 .benefit-lead img {
+   
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -129,6 +151,7 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
+    margin-top: 98px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -155,6 +178,7 @@ p {
 
 .search-engine-optimization img {
     max-height: 200px;
+
 }
 
 .online-reputation-management img {
