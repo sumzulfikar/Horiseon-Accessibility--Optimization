@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en-gb">
 
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Social Solutions</title> <!--Changed title website to comany name-->
 </head>
 
 <body>
-    <header>   <!--taking out header inside div as header and created new tag for header as it is a semantic.-->
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <header>   <!--taking out header inside div and created new tag for header as it is a semantic.-->
+        <h1>Hori<span>seo</span>n</h1>
         <nav><!---Removing div and list and replacing with nav tag for navigation semantic-->
             
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -19,63 +20,65 @@
             <a href="#social-media-marketing">Social Media Marketing</a>
                
         </nav>
-        <div><img src="./assets/images/digital-marketing-meeting.jpg" alt="Marketing team meeting" class="hero" /></div><!--image placed in header html file instead of css filee-->
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="Marketing team meeting" class="hero" /><!--image placed in header html file instead of css filee-->
         
     </header>
     <!--<div class="hero"></div>  --removing probably not needed-->
-    <div class="content">
-        <div class="search-engine-optimization">  <!--Added Alt descriptions for Images so that tools can read these to visually impaired users-->
+    
+    <section class="services"> <!--added sections for better structure and renamed content to services for better readability-->
+           <div class="search-engine-optimization">  <!--Added Alt descriptions for Images so that tools can read these to visually impaired users-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Six things improves Search Engine Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div class="online-reputation-management"> <!--Removed unnecessary ids inside the divs to improve consistency-->
             <img src="./assets/images/online-reputation-management.jpg" alt="Portable device used to track reputation" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="Features in social media tools for marketing" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+    </section>
+   
+    <section class="benefits">
+    <!--<div class="benefits"> removed and section added for structure-->
+        <div class="benefit-example">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="Multiple leads processed to generate revenue" /> <!--Added Alt descriptions for Icons so that tools can read these to visually impaired users-->
+            <img src="./assets/images/lead-generation.png" alt="Multiple leads processed to generate revenue" class="icons"/> <!--Added Alt descriptions for Icons so that tools can read these to visually impaired users-->
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit-example">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="Individual increasing awareness by information" />
+            <img src="./assets/images/brand-awareness.png" alt="Individual increasing awareness by information" class="icons" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit-example">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt=" Systems managing cost"></img>
+            <img src="./assets/images/cost-management.png" alt=" Systems managing cost" class="icons"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <!--taking out footer from inside the div and created new tag for footer as it is a semantic.-->
-    <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer>
+    </section>
+    <!--taking out footer from inside the body and created new tag for footer as it is a semantic.-->
 </body>
+
+<footer>
+    <h4>Made with ❤️️ by Horiseon</h4>
+     <br/> <h5>&copy; 2019 Horiseon Social Solution Services, Inc.</h5>
+</footer>
 
 </html>
