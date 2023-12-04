@@ -1,7 +1,7 @@
 # Horiseon-Accessibility-Optimization
 
 ## Project Objective
-A Marketing agency webite follows accessibility standards and increasing Search Engine Optimization.
+Ensuring that Horiseon Marketing agency's webite follows accessibility standards and increasing Search Engine Optimization.
 
 
 ## Table of Contents (Optional)
