@@ -23,9 +23,9 @@ This project is to ensure website users with disability are also able to use the
 
 ## Credits
 
-https://www.w3.org/WAI/fundamentals/accessibility-intro/
-https://www.w3schools.com/html/
-https://github.com/sumzulfikar/prework-study-guide
+- https://www.w3.org/WAI/fundamentals/accessibility-intro/
+- https://www.w3schools.com/html/
+- https://github.com/sumzulfikar/prework-study-guide
 
 ## License
 
