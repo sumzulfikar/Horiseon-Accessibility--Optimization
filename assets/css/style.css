@@ -17,12 +17,14 @@ header {
     margin: 0;
 }
 .hero {
+    position:absolute;
+    display: block;
+    padding: 0%;
     height: 800px;
     width: 100%;
-    position: center;
-    margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 25px;
 }
 
 h1 { /* single css for h1*/
@@ -234,7 +236,7 @@ body {
 .social-media-marketing img {
     max-height: 200px;
 }*/
-/*consolidating three classes to use same style instead of repeating*/
+/*these classes use exactly same style*/
 /*.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
