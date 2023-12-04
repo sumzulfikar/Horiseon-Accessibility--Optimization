@@ -15,7 +15,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-n/a
+Link: https://sumzulfikar.github.io/Horiseon-Accessibility-Optimization/
 
 ## Usage
 
